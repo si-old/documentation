@@ -21,6 +21,7 @@ Legend:
   │
   ├─ LICENSE
   ├─ README.md
+  ├─ CONTRIBUTING.md
   ├─ [conventions] // Adopted standards and internal conventions
   │    ├─ codingStyle.md
   │    └─ adoptions.md // List of adopted standards, optionally with reasoning
@@ -28,6 +29,7 @@ Legend:
   └─ [projects]
        ├─ <Team subDir>
        │    ├─ README.md
+       │    ├─ CONTRIBUTING.md
        │    ├─ [Team Policy] // Same purpose of the [conventions] folder in the root directory , but team based
        │    ├─ <Project subDir>
        │    │
