@@ -12,7 +12,7 @@ association
 ### Directory stucture ###
 
 Legend:
-- [...] Actual Directory
+- [...] Actual directory
 - <...> Directory template
 - // Comments
 
@@ -21,17 +21,20 @@ Legend:
   │
   ├─ LICENSE
   ├─ README.md
-  ├─ CONTRIBUTING.md
-  ├─ [conventions] // Adopted standards and internal conventions
+  ├─ CONTRIBUTING.md   // Serves also as the committee's statute
+  ├─ [policy]          // Adopted standards and internal conventions
+  │    │
   │    ├─ codingStyle.md
-  │    └─ adoptions.md // List of adopted standards, optionally with reasoning
+  │    └─ adoptedStandards.md
   │
   └─ [projects]
-       ├─ <Team subDir>
+       │
+       ├─ <Team subDir>          // Each team has it's own subdir. It follows the same logic of the upper hierarchy
+       │    │
        │    ├─ README.md
        │    ├─ CONTRIBUTING.md
-       │    ├─ [Team Policy] // Same purpose of the [conventions] folder in the root directory , but team based
-       │    ├─ <Project subDir>
+       │    ├─ [policy]
+       │    ├─ <Project subDir>  // Each project has it's own subdir
        │    │
       ...  ...
 ```
