@@ -1,0 +1,21 @@
+### THE STUDENTINGEGNERIA CONTRIBUTION LICENSE ###
+#                                                #
+##################################################
+Copyright (C) <Year> <Your Name>
+
+Permission to use, copy, modify, and/or distribute this work for any
+purpose with or without fee is hereby granted to the licensee, provided
+that the following condition is met:
+
+1) The licensee shall not claim the work as his own creation, and shall credit
+the original author in a CONTRIBUTIONS file provided with the work, inside
+the work itself, or, in the case of software projects, in the code.
+
+THE WORK IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS WORK INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS.
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
+ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
+WORK.
