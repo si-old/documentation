@@ -13,7 +13,7 @@ Legal
 Contribution
 
 - [Coding style](#coding-style)
-- [Pull requests](#pull-requests)
+- [Submitting patches](#submitting-patches)
 
 Workflow
 
@@ -114,3 +114,55 @@ StudentIngegneria Contribution License
 
 By contributing to any project, you automatically agree to
 convey your contribution to StudentIngegneria under the appropriate license.
+
+## Submitting patches ##
+
+Patches are submitted to the main repository for inclusion in form of GitHub's
+Pull Requests.
+
+### Patch guidelines ###
+
+To be accepted a patch should contain code that compiles / works
+( or whatever equivalent is appropriate for the context ) and doesn't break
+other parts of the project.
+
+In order to make your patches as easy to check as possible, try to keep them
+small, clear, and atomic:  
+
+- Only include closely related changes in one commit  
+- Limit a commit to changing a single file or component unless that would break
+  something somewhere else  
+
+These rules also make it easier to find regressions, and help prevent new bugs
+from slipping through.  
+
+### Commit messages guidelines ###
+
+- #### Regular commits ####
+
+	Be brief: the first line has to not be more than 80 characters in
+	length.
+
+	After the first line, you may add explanatory paragraphs that tell what the
+	patch accomplishes.  
+	Describe your changes in the imperative mood, as if you
+	are giving orders to the codebase to change its behavior,
+	e.g. ``` Make THIS do THAT``` instead of
+	```This patch makes THIS do THAT``` or ```Changed THIS to do THAT```.  
+
+	Try to make sure your explanation can be understood without external
+	resources.  
+	Describe how the patch works and why it is needed, but do not repeat what
+	the diff already shows.  
+
+	Wrap all paragraph lines to 80 characters.
+
+- #### Merge commits ####
+
+	All the rules for regular commits apply, in addendum
+
+	- The first line should begin with a tag in the form ```[ TAG ]```  
+		indicating the type of patch, in accordance to the type of branch that is
+		being merged.  
+		e.g a merge commit from the ```feature/wonderful-thing``` branch should be
+		titled like ```[FEATURE] Add wonderful thing```.
