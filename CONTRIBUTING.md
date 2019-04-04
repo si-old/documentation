@@ -17,7 +17,9 @@ Contribution
 
 Workflow
 
-- [Developing a feature](#developing-a-feature)
+- [How to bootstrap a project](#how-to-bootstrap-a-project)
+- [Branch name conventions](#branch-name-conventions)
+- [Developing things](#developing-things)
 
 ## Code of conduct ##
 
@@ -166,3 +168,38 @@ from slipping through.
 		being merged.  
 		e.g a merge commit from the ```feature/wonderful-thing``` branch should be
 		titled like ```[FEATURE] Add wonderful thing```.
+
+## How to bootstrap a project / repo ##
+
+1. Create the GitHub repository for the project
+
+2. Clone the initial commit from the
+[initial-commit](https://github.com/StudentIngegneria/initial-commit)
+repository  
+
+3. Change the remotes to point to the project's repository
+
+4. `git push -u origin master`
+
+5. Have some coffee
+
+## Branch name conventions ##
+
+**NOTE: All projects use gitflow.**
+
+The release branch is ```release```  
+The main development branch is ```dev```  
+
+The release candidate branches prefix is ```rc/```  
+The feature branches prefix is ```feature/```  
+The hotfix branches prefix is ```hotfix/```  
+
+## Developing things ##
+
+1. [Use gitflow correctly](#branch-name-conventions)
+
+2. Follow the [guidelines](https://github.com/StudentIngegneria/documentation/tree/master/policy)
+
+3. Be nice
+
+4. Don't be a jerk
