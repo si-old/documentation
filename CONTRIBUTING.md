@@ -173,15 +173,13 @@ from slipping through.
 
 1. Create the GitHub repository for the project
 
-2. Clone the initial commit from the
-[initial-commit](https://github.com/StudentIngegneria/initial-commit)
+2. Follow the instructions from the
+[bootstrapper](https://github.com/StudentIngegneria/bootstrapper)
 repository  
 
-3. Change the remotes to point to the project's repository
+3. `git push --all`
 
-4. `git push -u origin master`
-
-5. Have some coffee
+4. Have some coffee
 
 ## Branch name conventions ##
 
